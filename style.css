@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    display: block;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  }
+  nav.logo{
+      width:50px;
+  }
+
+  .navbar-brand img {
+    max-height: 50px;
+    max-width: 50px;
+  }
+  .navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #6c63ff;
+  }
+  nav ul li a {
+    color: #a9a9a9;
+    font-size: 22px;
+    margin: auto 10px;
+  }
+  nav ul li a:hover {
+    color: #0066fa;
+  }
+
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  section.alt{
+    background-color: #f0f8ff;
+  }
+  section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #ff4500;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  section p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  button {
+    max-width: 50%;
+    border-radius: 50px !important;
+  }
+  #hero .col {
+    justify-content: center; 
+    flex-direction: column;
+    display: flex;
+  }
+  #hero .img-col {
+    justify-content: flex-end; 
+    margin-top: 100px;
+  }
+  #hero img {
+    max-width: 130% !important;
+    width: 130%;
+  }
+  #hero .card {
+    box-shadow: 10px 7px 1px #281812;
+    margin-top: 25px;
+    border: 1px solid black;
+    text-align: center;
+    transition: ease-in-out 0.2s; 
+  }
+  .card:hover{
+    transform: translateY(5px);
+    transition: ease-in-out 0.2s;
+  }
+  #hero .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  #projects .projects {
+    margin-bottom: 50px;
+  }
+  #contact {
+    text-align: center;
+    background-color: #ff4500;
+    color: white;
+  }
+  #contact h1 {
+    text-align: center;
+    color: white;
+  }
+  .ss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    gap: 20px;
+    overflow-x: auto; /* agar bisa discroll secara horizontal jika layar kecil */
+  }
+
+  .box {
+    flex: 1 0 300px; /* lebar minimum 300px agar tidak terlalu kecil */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    min-width: 300px; /* memastikan tetap berdampingan */
+  }
+
+  .box h2 {
+    text-align: center;
+    color: #333;
+  }
+  .tmb{
+    text-decoration: none;
+    color: #ff4500;
+    font-weight: 900;
+  }
